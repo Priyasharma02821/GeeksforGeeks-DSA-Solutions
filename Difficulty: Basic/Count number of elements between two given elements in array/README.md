@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/count-number-of-elements-between-two-given-elements-in-array4044/1?page=1&sortBy=difficulty">Count number of elements between two given elements in array</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an unsorted array <strong>arr[]</strong> and two elements <strong>num1</strong> and <strong>num2</strong>. The task is to count the number of elements that occur between the given elements (excluding <strong>num1</strong> and <strong>num2</strong>). If there are multiple occurrences of <strong>num1</strong> and <strong>num2</strong>, we need to consider the leftmost occurrence of <strong>num1</strong> and the rightmost occurrence of <strong>num2</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [4, 2, 1, 10, 6], num1 = 4, and num2 = 6
+<strong>Output:</strong> 3
+<strong>Explanation: </strong>We have an array [4, 2, 1, 10, 6] and num1 = 4 and num2 = 6. So, the left most index of num1 is 0 and rightmost index of num2 is 4. So, the total number of element between them is [2, 1, 10]<strong> </strong>So, answer is 3.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [3, 2, 1, 4], num1 = 2, and num2 = 4
+<strong>Output:</strong> 1<br><strong>Explanation</strong>: here in array [3, 2, 1, 4] only one element [1] occur betweeen 2 and 4, So, answer is 1.</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 ≤ arr.size() ≤ 10<sup>6</sup><br>1 ≤ arr[i], num1, num2 ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
